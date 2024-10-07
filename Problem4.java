@@ -54,8 +54,7 @@ public class Problem4 {
                 newList.add(number);
             }
         }
-        
-        // Sort in natural ascending order
+
         newList.sort(Comparator.naturalOrder());
         
         System.out.println(newList);
